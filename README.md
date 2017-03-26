@@ -2,24 +2,35 @@
 In this repo you are provided with a 3D model of a human face (face.vtk) and texture image (face.ppm). This code is required to load the textured model in a lighted scene, perform smooth Gouraud shading, manipulate the model, the lights and the camera..
 # Requirements:
 1. Scene setup
-	Draw horizontal plane
-	Draw a cube over the plane
-  Insert 2 Omni light sources in different positions above the plane
-2. Model loading
-	 Read the VTK and the PPM files
-	 Draw the textured face model exactly above the cube
-3. Smooth shading
-	 Produce smooth (Gouraud ‐> Average of normals around polygon) shading for visualizing a polygonal model of a face with texture mapping applied
-4. Model manipulation:
-	 Assign Keyboard shortcuts to move the loaded model in 3 axes back and forth
-5. Light Control
- 	Assign Keyboard shortcut keys for enabling/disabling each light source
-6. Camera Manipulation: (using mouse)
-	 Rotation
-	 Zooming
-	 Panning
-7. visualize normal vectors at each point in the modelVTK File
 
+ Draw horizontal plane
+
+ Draw a cube over the plane
+
+ Insert 2 Omni light sources in different positions above the plane
+2. Model loading
+
+ Read the VTK and the PPM files
+
+ Draw the textured face model exactly above the cube
+3. Smooth shading
+
+ Produce smooth (Gouraud ‐> Average of normals around polygon) shading for
+visualizing a polygonal model of a face with texture mapping applied
+4. Model manipulation:
+
+ Assign Keyboard shortcuts to move the loaded model in 3 axes back and forth
+5. Light Control
+
+ Assign Keyboard shortcut keys for enabling/disabling each light source
+6. Camera Manipulation: (using mouse)
+
+ Rotation
+
+ Zooming
+
+ Panning
+7. BONUS: visualize normal vectors at each point in the model
 # The (face.vtk) consists of following sections:
 Header: file info
 
